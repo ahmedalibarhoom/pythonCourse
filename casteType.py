@@ -1,9 +1,10 @@
 x = 1
 y = 2.0
 z = '3'
-y = int(y)
 
-z = int(z)
+x = str(x)
+y = str(y)
+z = str(z)
 
 print(x)
 print(y)
