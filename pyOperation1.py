@@ -47,16 +47,17 @@
 # print(num1 | num2)
 
 
-print(10==110 and 20==20)
-print(10==110 or 20==20)
+# print(10==110 and 20==20)
+# print(10==110 or 20==20)
 
 
+# l = [10,50,60,70]
+# print(50 in l)
+# print(300 in l)
 
-
-
-
-
-
+s = 'python in string all'
+print('all' in s)
+print('all' not in s)
 
 
 
