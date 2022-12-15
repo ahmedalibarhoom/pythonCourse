@@ -22,6 +22,24 @@
 # print(character_name+' has one brother')
 
 
-print('ahmed is here in \n the class')
-print('ahmed is here in \n the \'class')
-print('ahmed is here' ' the class')
+# print('ahmed is here in \n the class')
+# print('ahmed is here in \n the \'class')
+# print('ahmed is here' ' the class')
+#
+# print('ahmed is here in \t the class')
+
+
+
+text = 'codezilla'
+print(text+' is cool'+' thanks')
+text = 'CODEzilla'
+print(text.lower())
+print(text.upper())
+print(text.isupper())
+print(text.islower())
+print(text.lower().islower())
+print(text.lower().isupper())
+print(len(text))
+
+text = 'CODEzilla'
+
