@@ -30,16 +30,26 @@
 
 
 
+# text = 'codezilla'
+# print(text+' is cool'+' thanks')
+# text = 'CODEzilla'
+# print(text.lower())
+# print(text.upper())
+# print(text.isupper())
+# print(text.islower())
+# print(text.lower().islower())
+# print(text.lower().isupper())
+# print(len(text))
+
 text = 'codezilla'
-print(text+' is cool'+' thanks')
-text = 'CODEzilla'
-print(text.lower())
-print(text.upper())
-print(text.isupper())
-print(text.islower())
-print(text.lower().islower())
-print(text.lower().isupper())
-print(len(text))
+print(text[0])
+print(text[2])
+print(text.index('z'))
+print(text.index('zilla'))
+print(text.replace('code','mode'))
 
-text = 'CODEzilla'
 
+
+first_name = 'ahmed'
+last_name = 'barhoom'
+print(first_name[0],last_name[0])
