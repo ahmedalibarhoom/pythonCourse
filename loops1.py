@@ -41,15 +41,15 @@
 # print(text.lower().isupper())
 # print(len(text))
 
-text = 'codezilla'
-print(text[0])
-print(text[2])
-print(text.index('z'))
-print(text.index('zilla'))
-print(text.replace('code','mode'))
-
-
-
-first_name = 'ahmed'
-last_name = 'barhoom'
-print(first_name[0],last_name[0])
+# text = 'codezilla'
+# print(text[0])
+# print(text[2])
+# print(text.index('z'))
+# print(text.index('zilla'))
+# print(text.replace('code','mode'))
+#
+#
+#
+# first_name = 'ahmed'
+# last_name = 'barhoom'
+# print(first_name[0],last_name[0])
