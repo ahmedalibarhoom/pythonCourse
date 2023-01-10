@@ -30,38 +30,41 @@
 # string for text any texts
 
 
-text = 'HAmada'
-print(text)
-print(text.lower())
-print(text.upper())
-print(text.isupper())
-print(text.islower())
-print(len(text))
-print(text.lower().islower())
-print(text[2])
-print(text.index('m'))
-print(text.index('da'))
-print(text.replace('da','ma'))
-print(text+' he is the worst guy here'+' thank you')
-print('ham\ndaloa')
-print('ahmed is here\nand then he went there')
-
-print('ahmed\t is here\nand then he\' went there')
-
-# t make 4 spaces ***
-
-
+# text = 'HAmada'
+# print(text)
+# print(text.lower())
+# print(text.upper())
+# print(text.isupper())
+# print(text.islower())
+# print(len(text))
+# print(text.lower().islower())
+# print(text[2])
+# print(text.index('m'))
+# print(text.index('da'))
+# print(text.replace('da','ma'))
+# print(text+' he is the worst guy here'+' thank you')
+# print('ham\ndaloa')
+# print('ahmed is here\nand then he went there')
+#
+# print('ahmed\t is here\nand then he\' went there')
+#
+# # t make 4 spaces ***
 
 
+my_num = -5
+print(str(my_num)+' my favotire num')
+print(abs(my_num))
+print(pow(2,2))
+print(max(146,545))
+print(min(245,145))
+print(round(3.8))
+print(round(3.2))
+from math import *
 
+print(floor(3.7)) #oppsite round
 
-
-
-
-
-
-
-
+print(ceil(3.4))
+print(sqrt(25))
 
 
 
