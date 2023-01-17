@@ -10,8 +10,28 @@
 
 
 # to solve decimal numbers
+#
+# num1 = input('enter the first no: ')
+# num2 = input('enter the second no: ')
+# result = float(num1)+float(num2)
+# print(result)
 
-num1 = input('enter the first no: ')
-num2 = input('enter the second no: ')
-result = float(num1)+float(num2)
-print(result)
+color = input('enter your color: ')
+noun_plural = input('enter your plural noun: ')
+adjective = input('enter your adjective: ')
+
+print('tree are '+color)
+print(noun_plural+' are mean')
+print('please keep it '+adjective)
+
+
+
+
+
+
+
+
+
+
+
+
