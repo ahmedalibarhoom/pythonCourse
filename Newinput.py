@@ -45,19 +45,97 @@
 # print(friends[1])
 # print(friends[2])
 
-friends = ['saad', 'ahmed', 'hasan', 'hosni']
+# friends = ['saad', 'ahmed', 'hasan', 'hosni']
 
-print(friends)
-print(friends[-1])
-print(friends[-2])
-print(friends[1:3]) # here the programme say no add factor 3 hosni
+# print(friends)
+# print(friends[-1])
+# print(friends[-2])
+# print(friends[1:3]) # here the programme say no add factor 3 hosni
+#
+# print(friends[0:2])
+# # to start count from specif unit until the end
+# print(friends[1:])
+# friends[1] = 'coco' # to change value inside the list
+# print(friends[1])
+# print(friends)
 
-print(friends[0:2])
-# to start count from specif unit until the end
-print(friends[1:])
-friends[1] = 'coco' # to change value inside the list
-print(friends[1])
-print(friends)
+
+
+codezilla = ['programming', 'python', 'tutorial', 'html', 'css']
+tutorial = ['extend', 'list1', 'codezilla']
+print(codezilla, tutorial)
+
+# to print them together add list to another list
+# codezilla += tutorial
+# print(codezilla)
+# codezilla = codezilla + tutorial
+# print(codezilla)
+
+# to add agent to the list
+# codezilla.append('ali')
+# print(codezilla)
+# codezilla.append([1, 2, 'ahmed'])
+# print(codezilla)
+
+
+
+# to detect exactly where you would like to add new agent to the list
+
+# codezilla.insert(0, 'hasan')
+# print(codezilla)
+# codezilla.remove('python')
+# print(codezilla)
+# codezilla.clear() # to remove everything inside the list
+# print(codezilla)
+# codezilla.pop()
+# print(codezilla)
+# codezilla.pop()
+# print(codezilla)
+# what_was_popped = codezilla.pop()
+# print(what_was_popped)
+# # to remove just last agent in the list we use codezilla.pop()
+#
+# print(codezilla.index('python')) # to detect if the agent that we want in the list or not
+
+
+data = codezilla.index('tutorial')
+print(data)
+
+# to check about one agent if is it in the list or not and how many time repeated we use
+print(codezilla.count('python'))
+
+# to sort and rearrange the words in the list depening on alphabet
+# we use
+codezilla.sort()
+print(codezilla)
+
+
+
+# arrage the number from smallest to  the biggest
+ahmed = [1, 455, 86, 45, 10]
+ahmed.sort()
+print(ahmed)
+
+# if you want to make copy for our list
+list_new = ahmed.copy()
+print(list_new)
+#the new list will not change with any addtion to the original list
+
+#this way to add changes the new list and old list together
+list_new1 = ahmed
+ahmed.append(1)
+print(list_new1)
+print(ahmed)
+
+
+
+
+
+
+
+
+
+
 
 
 
