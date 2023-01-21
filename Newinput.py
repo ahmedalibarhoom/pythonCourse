@@ -134,9 +134,9 @@
 # in tuples we can not change anything in it
 #after we made it we can not add or remove anthing
 #from it
-coordinate = (23, 25)
-print(coordinate)
-print(coordinate[1])
+# coordinate = (23, 25)
+# print(coordinate)
+# print(coordinate[1])
 
 # we use tuples for information which do not accpet
 #any changes after doing it like coordinates
@@ -146,8 +146,8 @@ print(coordinate[1])
 # the same like nomral tuples we can change or add anthing on it
 # let us see example
 #[()] like this list and inside the list tuples
-list_of_tuples = [(2,3), (5, 6), (85, 47)]
-print(list_of_tuples)
+# list_of_tuples = [(2,3), (5, 6), (85, 47)]
+# print(list_of_tuples)
 
 # list_of_tuples [0] [0] mean change value
 #in 0 as arragne to 0 value and it will appear
@@ -155,10 +155,52 @@ print(list_of_tuples)
 
 
 
+# function is code or many codes has one mission
+# or more to do like calculator
+
+# to write function we start with word (def) as keyword tells python i want write function
+#say_hi the name of the def
+#then we write () and :
+# then we should be sure that we write
+#our code after 4 spaces
+
+# def say_hi():
+#     print('hello user')
+#
+# def do_not_talk():
+#     print('now')
+#
+# print('first')
+# say_hi()
+# do_not_talk()
+# print('second')
+
+#we write say_hi to call the function
 
 
+def say_hello(name):
+    print('hello ' +name)
 
 
+say_hello('ali')
+
+#our function can take more than one parameter
+#like this
+
+def say_hello(name, age):
+    print('hello ' +name+' your age is '+age)
+
+
+say_hello('ali', '25')
+#'25' it act like string so we need put it in ''
+# but we can use all types of data in the def
+# we can use number without this symbol ''
+# if we add str to the age like this
+
+def say_hello(name, age):
+    print('hello ' +name+' your age is ' +str(age))
+say_hello('ali', 25)
+#like this
 
 
 
