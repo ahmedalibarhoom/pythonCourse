@@ -61,9 +61,9 @@
 
 
 
-codezilla = ['programming', 'python', 'tutorial', 'html', 'css']
-tutorial = ['extend', 'list1', 'codezilla']
-print(codezilla, tutorial)
+# codezilla = ['programming', 'python', 'tutorial', 'html', 'css']
+# tutorial = ['extend', 'list1', 'codezilla']
+# print(codezilla, tutorial)
 
 # to print them together add list to another list
 # codezilla += tutorial
@@ -98,43 +98,60 @@ print(codezilla, tutorial)
 # print(codezilla.index('python')) # to detect if the agent that we want in the list or not
 
 
-data = codezilla.index('tutorial')
-print(data)
+# data = codezilla.index('tutorial')
+# print(data)
 
 # to check about one agent if is it in the list or not and how many time repeated we use
-print(codezilla.count('python'))
+# print(codezilla.count('python'))
 
 # to sort and rearrange the words in the list depening on alphabet
 # we use
-codezilla.sort()
-print(codezilla)
+# codezilla.sort()
+# print(codezilla)
 
 
 
 # arrage the number from smallest to  the biggest
-ahmed = [1, 455, 86, 45, 10]
-ahmed.sort()
-print(ahmed)
+# ahmed = [1, 455, 86, 45, 10]
+# ahmed.sort()
+# print(ahmed)
 
 # if you want to make copy for our list
-list_new = ahmed.copy()
-print(list_new)
+# list_new = ahmed.copy()
+# print(list_new)
 #the new list will not change with any addtion to the original list
 
 #this way to add changes the new list and old list together
-list_new1 = ahmed
-ahmed.append(1)
-print(list_new1)
-print(ahmed)
+# list_new1 = ahmed
+# ahmed.append(1)
+# print(list_new1)
+# print(ahmed)
 
 
+#tuples
+#() for using tuples
+# we put two values or more  inside the tuples
+# in tuples we can not change anything in it
+#after we made it we can not add or remove anthing
+#from it
+coordinate = (23, 25)
+print(coordinate)
+print(coordinate[1])
 
+# we use tuples for information which do not accpet
+#any changes after doing it like coordinates
+# and the positions of the places
 
+# we can make list of tuples and it will be
+# the same like nomral tuples we can change or add anthing on it
+# let us see example
+#[()] like this list and inside the list tuples
+list_of_tuples = [(2,3), (5, 6), (85, 47)]
+print(list_of_tuples)
 
-
-
-
-
+# list_of_tuples [0] [0] mean change value
+#in 0 as arragne to 0 value and it will appear
+#that we can not change or add anything
 
 
 
