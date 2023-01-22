@@ -178,30 +178,64 @@
 #we write say_hi to call the function
 
 
-def say_hello(name):
-    print('hello ' +name)
-
-
-say_hello('ali')
+# def say_hello(name):
+#     print('hello ' +name)
+#
+#
+# say_hello('ali')
 
 #our function can take more than one parameter
 #like this
 
-def say_hello(name, age):
-    print('hello ' +name+' your age is '+age)
-
-
-say_hello('ali', '25')
+# def say_hello(name, age):
+#     print('hello ' +name+' your age is '+age)
+#
+#
+# say_hello('ali', '25')
 #'25' it act like string so we need put it in ''
 # but we can use all types of data in the def
 # we can use number without this symbol ''
 # if we add str to the age like this
 
-def say_hello(name, age):
-    print('hello ' +name+' your age is ' +str(age))
-say_hello('ali', 25)
+# def say_hello(name, age):
+#     print('hello ' +name+' your age is ' +str(age))
+# say_hello('ali', 25)
 #like this
 
+# in this class let us make function that can help us to find result for us
+#let us see example we will put number is the paramete space
+
+def cube(num):
+    return num*num*num
+#now we have to make call to the function
+# cube(3)
+#nothing happen we have to make like this
+# print(cube(3))
+#the result none why cuz we have to make return
+#return num*num*num this the way how we
+#get back value from my function
+
+# def cube(num):
+#     return num*num*num
+#
+# result = cube(4)
+# print(result)
 
 
+def sum(num1, num2):
+    return num1+num2
+print(sum(40,54))
+
+def sub(num1, num2):
+    return num1-num2
+print(sub(635,54))
+
+# word return mean that this is last line
+# will be on procces in the functoin
+#after return do not print anything
+#example
+def sub(num1, num2):
+    return num1-num2
+    print('hello')
+print(sub(635,54))
 
